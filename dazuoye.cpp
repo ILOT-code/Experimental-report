@@ -1,9 +1,3 @@
-//水平运动时设x方向运动,若有x向风速x_windspeed
-//如果反向，则功率变为 level_power*(x_windspeed+level_speed)/level_speed
-//如果同向，则功率变为 level_power*(x_windspeed-level_speed)/level_speed
-//如果斜向运动，则功率为   level_power*（level_speed/1.414+x_windspeed+level_speed/1.414+y_windspeed)/level_speed
-//如果垂直向上  功率为    level_power*(vertical_speed+z_windspeed)/level_speed+mg*vertical_speed
-//如果垂直向下  功率为    ma*vertical_speed-level_power*(vertical_speed-z_windspeed)/level_speed
 
 #include <iostream>
 #include <cmath>
